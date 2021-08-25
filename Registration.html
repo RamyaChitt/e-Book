@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Registration form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="valid.css" type="text/css" />
+ <script src="valid.js"></script> 
+</head>
+<style>
+    
+    body{
+        /* background-color: rgba(61, 158, 126, 0.292); */
+        background-image: url(../ramyaFronend/Wimages/office-meet.jpg);
+        background-repeat: no-repeat;
+        background-size:  cover ;
+    }
+</style>
+<body >
+  <div align="left" class="id">
+    <!-- <iframe src="../webproject/ebookhome.html" name="Home" title="Iframe Example"></iframe> -->
+    <button><a href="../ramyaFronend/home.html"  ><strong>Home</strong></a></button>
+    <button>  <a href="../ramyaFronend/e-bookabuotus.html"><strong>Aboutus</strong></a></button>
+  <button> <a href="../ramyaFronend/contcat us.html"><strong>contactus</strong></a></button>
+  <button>  <a href="../ramyaFronend/Registration.html"><strong>Register</strong></a></button>
+  <button> <a href="../ramyaFronend/webLogin.html"><strong>Login</strong></a></button>
+  </div>
+
+<div class="form-style">
+  
+<form name="form1" method="post" action="#" OnSubmit="return fncValidate();" autocomplete="off">
+  <h2>Registration Form</h2>
+  <table align="center" width="400" border="0">
+      <tr>
+        <td width="125"> &nbsp;Firstname</td>
+        <td width="180"><div class="input-group">
+          <input type="text" name="fname" size="20" required="Firstname"></div>
+        </td>
+      </tr> 
+	  <tr>
+        <td width="125"> &nbsp;Lastname</td>
+        <td width="180"><div class="input-group">
+          <input type="text" name="lname" size="20" required="Lastname"></div>
+        </td>
+      </tr>
+	  <tr><td>Gender:</td><td><span id="gen"  required><input type="radio" name="gender" value="male" id="male" > Male
+	  <input type="radio" name="gender" value="female" id="female" > Female</span></td></tr>
+	  <tr><td>Address:</td><td><textarea name="address" class="textarea-field" required ></textarea></td></tr>
+	  <tr><td>Country: </td><td><div class="input-group">
+<select id="country" required>
+<option value="">Choose a country</option>
+<option value="aus">Australia</option>
+<option value="gb">Great Britain</option>
+<option value="ind">India</option>
+<option value="china">China</option>
+</select>
+</div></td></tr>
+<tr>
+        <td> &nbsp;Mobile No:</td> 
+        <td><div  class="input-group"><input type="text" name="phone" required></div>
+        </td> 
+      </tr>
+	  <tr>
+        <td> &nbsp;Email</td>
+        <td><div  class="input-group"><input type="text" name="email" required></div>
+        </td>
+      </tr>
+	   <tr>
+        <td> &nbsp;Password</td> 
+        <td><div  class="input-group"><input type="password" name="Password" required></div>
+        </td>
+      </tr>
+      <tr>
+        <td> &nbsp;Confirm Password</td>
+        <td><div  class="input-group"><input type="password"  name="ConPassword" required></div>
+        </td>
+      </tr>
+<tr><td></td><td><input type="submit" name="Submit" value="Submit" class="btn">&nbsp&nbsp
+<input type="reset" name="reset" value="Reset" class="btn"></td></tr>
+  </table>
+</form>
+</div>
+</body>
+</html>

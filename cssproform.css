@@ -1,0 +1,37 @@
+
+    
+    div{
+        
+        text-align: center;
+        background-color:rgba(173, 213, 218, 0.251);
+        
+        width: 50%;
+        height: 80%;
+    }
+    form{
+            text-align: center;
+           font-display: bold;
+            font-size: 30px;
+            font-style: solid  normal;
+        }
+        h1{
+        
+        color: rgb(0, 0, 0);
+    }
+        
+    input[type=text],input[type=textarea],input[type=number]{
+         padding:solid 40%;
+         text-align: center;
+         width: 80%;
+         height: 8mm;
+         font-size: 70%;
+        font-family: 'Times New Roman', Times, serif ;
+        font-style: normal;
+        color: rgba(50, 204, 81, 0.34);
+    
+    }#b{ 
+        
+        text-align: center;
+        width: 10%;
+        background-color: rgb(79, 71, 196);
+    }
